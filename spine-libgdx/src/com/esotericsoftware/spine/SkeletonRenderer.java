@@ -28,10 +28,7 @@
 
 package com.esotericsoftware.spine;
 
-import com.esotericsoftware.spine.attachments.Attachment;
-import com.esotericsoftware.spine.attachments.MeshAttachment;
-import com.esotericsoftware.spine.attachments.RegionAttachment;
-import com.esotericsoftware.spine.attachments.SkeletonAttachment;
+import com.esotericsoftware.spine.attachments.*;
 
 import com.badlogic.gdx.graphics.GL11;
 import com.badlogic.gdx.graphics.Texture;
