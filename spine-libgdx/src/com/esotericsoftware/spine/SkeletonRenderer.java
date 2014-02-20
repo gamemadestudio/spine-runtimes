@@ -154,6 +154,10 @@ public class SkeletonRenderer {
 				rootBone.setScaleX(oldScaleX);
 				rootBone.setScaleY(oldScaleY);
 				rootBone.setRotation(oldRotation);
+			} else if(attachment instanceof GroupAttachment) {
+                GroupAttachment groupAttachment = (GroupAttachment)attachment;
+                groupAttachment.updatePlacement(slot, premultipliedAlpha);
+                groupAttachment.getGroup().draw(batch, 1);
 			}
 		}
 	}
